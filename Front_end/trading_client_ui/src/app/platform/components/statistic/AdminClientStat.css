@@ -1,0 +1,21 @@
+.photo{
+height: 23px;
+width: 32px;
+margin-right: 8px;}
+
+.btn-div-return {
+    margin-bottom: 19px;
+    
+}
+.btn-return {
+margin-right: 0;
+margin-left: auto;
+display: block;
+border-radius: 20px;
+}
+.card-stat {
+    border-radius: 9px !important;
+    margin-bottom: 22px !important;
+    margin-left: 7px !important;
+    margin-right: 13px !important;
+}

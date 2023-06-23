@@ -1,0 +1,180 @@
+/* .search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.search-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.input-search {
+  width: 95%;
+}
+
+.modal .modal-content .modal-footer {
+  border-top: none;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  justify-content: center;
+}
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  /* border-bottom: 1px solid #dee2e6 !important; 
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+  color: rgb(209, 209, 209) !important;
+}
+.modal .modal-content .modal-header {
+  border-bottom: none;
+  padding-top: 24px;
+  padding-right: 24px;
+  /* padding-bottom: 0; 
+  padding-left: 24px;
+}
+.modal-header .h4 {
+  /* font-weight: 300; 
+  margin: 31px 129px 15px;
+  color: #17498f;
+}
+.ant-btn-primary {
+  color: #fff;
+  background: #17498f !important;
+  border-color: #17498f !important;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  border-radius: 1.3rem;
+}
+.ant-btn {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 5px !important;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-color: #d9d9d9;
+}
+.ant-btn-primary:hover {
+  color: #fff;
+  background: #0f2d57;
+  border-color: #0f2d57;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+.ant-table-thead > tr > th {
+  color: #17498f !important;
+  font-weight: 500;
+  text-align: center !important;
+  background: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s ease;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s;
+  text-align: center !important;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+   border: 1px solid rgba(0,0,0,.2); 
+  border-radius: 1.3rem;
+  outline: 0;
+}
+ .ant-input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.3s;
+} 
+.bigCard {
+  border-radius: 5px !important;
+  background-color: transparent !important;
+  box-shadow: 0 0px 4px 0 rgba(172, 172, 172, 0.34),
+    0 0px 4px 0 rgba(172, 172, 172, 0.34);
+  padding: 10px 13px 10px 13px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100% !important;
+}
+.searchCard {
+  border-radius: 5px !important;
+  background-color: #d9d9d9 !important;
+ box-shadow: 0 0px 4px 0 rgba(172, 172, 172, 0.34), 0 0px 4px 0 rgba(172, 172, 172, 0.34); 
+  padding: 10px 13px 10px 13px;
+  margin-bottom: 10px !important;
+}
+.divsearchCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.inputSearch {
+  border-radius: 5px !important;
+  box-shadow: 0 0px 4px 0 rgba(172, 172, 172, 0.34),
+    0 0px 4px 0 rgba(172, 172, 172, 0.34);
+}
+
+.ant-btn-circle {
+  min-width: 32px;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  border-radius: 70% !important;
+}
+.cardsCont {
+	border-radius: 5px !important;
+	box-shadow: 0 0px 4px 0 rgba(172, 172, 172, 0.34),
+	  0 0px 4px 0 rgba(172, 172, 172, 0.34);} */

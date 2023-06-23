@@ -1,0 +1,6 @@
+.platform{
+
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(190 190 190 / 31%);
+}

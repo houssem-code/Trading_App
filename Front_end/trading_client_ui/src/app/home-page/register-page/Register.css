@@ -1,0 +1,44 @@
+
+
+.home_page .register_submit_button .ant-btn-primary {
+
+    background: rgb(30, 49, 90)  !important;
+    border-color: rgb(30, 49, 90)   !important;
+    border-radius: 10px;
+    padding: 4px 24px;
+}
+
+.home_page .register_submit_button .ant-btn-primary:hover {
+
+    background: rgb(9, 20, 44) ;
+    border-color: rgb(9, 20, 44) ;
+
+}
+
+
+
+.home_page .register_submit_button {
+   
+    margin-bottom: 0px;
+}
+
+
+.home_page div[role="alert"] {
+
+    float: left;
+
+}
+
+.home_page .react-reveal .ant-form {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.home_page .react-reveal .ant-form .ant-input-affix-wrapper {
+
+    border-radius: 10px;
+}
+

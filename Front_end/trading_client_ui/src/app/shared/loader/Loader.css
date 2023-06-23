@@ -1,0 +1,13 @@
+.Loading-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999999;
+
+}

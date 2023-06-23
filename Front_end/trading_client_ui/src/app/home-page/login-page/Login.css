@@ -1,0 +1,91 @@
+
+
+
+.home_page .react-reveal  {
+    width: 500px;
+    max-width: 500px;
+    padding: 20px;
+    margin:10px;
+    border-radius: 20px;
+    background-color: rgb(190 190 190 / 75%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+
+}
+
+
+
+.home_page .login_submit_button {
+   
+    margin-bottom: 0px;
+}
+
+.home_page .login_submit_button .ant-btn-primary {
+
+    background: rgb(30, 49, 90)  !important;
+    border-color: rgb(30, 49, 90)   !important;
+    border-radius: 10px;
+    padding: 4px 24px;
+}
+
+.home_page .login_submit_button .ant-btn-primary:hover {
+
+    background: rgb(9, 20, 44) ;
+    border-color: rgb(9, 20, 44) ;
+
+}
+.home_page .anticon {
+  
+    vertical-align: 0.1em !important;
+  
+}
+.home_page .ant-btn {
+
+    font-size: 15px;
+}
+.home_page .login-register-container {
+
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.home_page .login-register-container .register a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+.home_page .login-register-container .register a:hover {
+    color:rgb(27, 44, 80) ;
+    
+}
+
+.home_page .register {
+    margin-top: 10px
+}
+
+.home_page .react-reveal .ant-form {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.home_page .react-reveal .ant-form .logo {
+
+    align-self: center;
+    margin-bottom: 20px;
+    width : 150px
+}
+
+.home_page .react-reveal .ant-form .ant-input-affix-wrapper {
+
+    border-radius: 10px;
+}
+

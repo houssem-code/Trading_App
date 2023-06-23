@@ -1,0 +1,441 @@
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -100px;
+    margin-left: 30px;
+} */
+
+.ant-card.ant-card-bordered.card-APPL{
+    width: 500px;
+}
+.card-Container .ant-card {
+
+    position: relative;
+    border-radius:10px !important;
+  margin-bottom: 10px !important
+}
+.row-Container .ant-card {
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    /* background: #fff; */
+    border-radius:10px !important;
+    background-color: transparent!important; 
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 15px 0 rgb(0 0 0 / 34%);
+        margin-bottom: 10px !important
+}
+.card-Container .ant-card-head {
+    min-height: 48px;
+    height: 50px;
+    margin-bottom: -1px;
+    padding: 0 24px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    font-size: 14px;
+    background:     rgb(50, 66, 90);
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 10px 10px 0px 0px !important;
+}
+.card-APPL .ant-card-head-title {
+    display: inline-block;
+     flex: 0.15;
+    padding: 16px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-APPL .avatar-meta{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.card-APPL .card-image{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+
+
+}
+
+.card-APPL .ant-card-meta-title {
+    overflow: hidden;
+    color: rgb(50, 66, 90);
+    font-weight: 500;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 10px !important;
+
+    margin-left : -15px
+}
+.FormAppSubsc{
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+    width: 100%
+
+}
+
+.FormAppSubsc .ant-input-affix-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    transition: all 0.3s;
+    display: inline-flex;
+}
+.FormAppSubsc .ant-input {
+    height: 35px;
+    border-radius: 10px;
+    width: 80%;
+   
+}
+.FormAppSubscInfo{
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+    width: 100%
+
+}
+.item-info{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center ;
+width:40%}
+.FormAppSubscInfo .anticon {
+    color :   rgb(50, 66, 90) ; 
+  }
+  .FormAppSubscInfo .fas {
+      color :   rgb(50, 66, 90) ; 
+  }
+  .FormAppSubscInfo .far {
+      color :   rgb(50, 66, 90) ; 
+  }
+  .FormAppSubscInfo p {
+    font-size: 16px;
+    line-height: 0.9;
+}
+.addPhotoButton{
+    margin-top: -18px !important ;
+    margin-left : 40px ;
+    width:10px !important
+}
+.addPhotoButtonDiv{
+    margin-top: -18px !important ;
+    margin-left : 40px ;
+}
+.addPhotoButtonDiv .far{
+ 
+    margin-left : -8px ;
+}
+.FormAppSubsc .ant-input-prefix {
+    margin-right: 10px;
+}
+.FormAppSubsc .anticon {
+  color :   rgb(50, 66, 90) ; 
+}
+.FormAppSubsc .fas {
+    color :   rgb(50, 66, 90) ; 
+}
+.FormAppSubsc .far {
+    color :   rgb(50, 66, 90) ; 
+}
+.card-APPL .ant-avatar {
+    box-shadow: 0px 4px 10px 0px rgb(189, 187, 187), 0px 0px 5px 3px rgb(189, 187, 187) ;
+  
+}
+.card-APPL .anticon {
+
+    vertical-align: 0.2em !important;
+
+}
+.FormAppSubsc .ant-btn-primary {
+    color: #fff;
+    background: rgb(50, 66, 90) !important;
+    border-color: rgb(50, 66, 90) !important;
+    border-radius: 10px !important;
+    height: 35px;
+    width: 80%;
+
+}
+.FormAppSubsc .ant-btn-primary:focus {
+    color: #fff;
+    background: rgb(25, 32, 54) !important;
+    border-color: rgb(25, 37, 54) !important;
+    border-radius: 10px !important;
+    height: 35px;
+    width: 80%;
+
+}
+.card-Rep {
+  
+    background-color: transparent!important; 
+ 
+}
+
+.card-Rep .cardClient{
+    border-radius: 5px !important;
+    background-color: transparent!important; 
+    box-shadow: 0 0px 0px 0 rgba(172, 172, 172, 0.34), 0 0px 0px 0 rgba(172, 172, 172, 0.34);
+    border-color: rgb(218, 218, 218) ;
+
+    padding: 10px 13px 10px 13px;
+    margin-top: 10px !important
+}
+
+.card-Rep .ant-card-meta-title {
+    overflow: hidden;
+    color: rgb(50, 66, 90) !important;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 3.5;
+}
+.card-Rep  .avatar .ant-avatar {
+    box-shadow: 0px 4px 10px 0px rgb(189, 187, 187), 0px 0px 5px 3px rgb(189, 187, 187) ;
+}
+
+.card-Rep  .avatar{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    align-content: center;
+    width: 100% !important;
+}
+
+
+.card-Rep  .items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.card-Rep  .items .fas {
+    color: rgb(50, 66, 90) ;
+    line-height: 1.7 !important;
+    margin-right: 5px
+}
+.card-Rep .items .far {
+    color: rgb(50, 66, 90) ;
+    line-height: 1.7 !important;
+    margin-right: 5px
+}
+.card-Rep .infoClient{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.card-Rep .buttonsDiv .ant-btn > span {
+color: white !important;}
+.card-Rep .buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width:32% !important
+}
+.card-Rep .buttonsDiv .fas {
+    margin-left: -10px;
+    margin-right:3px ;
+    color: white !important;
+}
+.card-Rep .buttonsDiv  .far {
+    margin-left: -10px ;
+    margin-right:3px  ;
+    color: white !important;
+}
+.card-Rep .avatar3-meta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width:22% !important 
+}
+.card-Rep .activ{
+    background-color: rgb(30, 107, 30)
+}
+.card-Rep .ant-avatar > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+} 
+.alerte{
+    box-shadow: 0px 0px 0px 0px rgb(189, 187, 187), 0px 0px 0px 0px rgb(189, 187, 187) !important;
+    background-color: rgb(255, 242, 204) !important ;
+  height: 55px;
+}
+.alerte .alerteDiv{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content:flex-start;
+    align-content: flex-start;
+    width:100%;
+    margin-top : -20px;
+}
+.alerte  .fas {
+    color: rgb(214, 47, 47) ;
+    font-size: 35px;
+    line-height: 1.1
+
+}
+.Phrase1{
+    color: rgb(214, 47, 47) ;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: bold
+
+}
+
+.Phrase2{
+    color: rgb(131, 124, 124) ;
+    margin-left: 35px;
+    line-height: 0;
+    font-size: 14px !important;
+
+}
+.alerteVal{
+    box-shadow: 0px 0px 0px 0px rgb(189, 187, 187), 0px 0px 0px 0px rgb(189, 187, 187) !important;
+    background-color: rgb(255, 242, 204) !important ;
+  height: 32px;
+}
+.alerteVal .alerteDivVal{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content:flex-start;
+    align-content: flex-start;
+    width:100%;
+    margin-top : -20px;
+}
+.alerteVal  .fas {
+    color: rgb(196, 89, 17) ;
+    font-size: 20px;
+    line-height: 1.1
+
+}
+
+.Phrase1Val{
+    color: rgb(196, 89, 17) ;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold
+}
+.alerteVal  p {
+    line-height: 1.7;
+}
+
+
+.spanGoStyle{
+    font-family: ui-monospace;
+    position: relative;
+    top: 4px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    height: 42px;
+
+}
+.ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    border-radius:9px
+}
+.accept-btn {
+    background-color: #4472c4 !important;
+    color: white !important ;
+    border: 1px solid #4472c4 !important;
+    border-radius: 4px;
+    width: 100px !important;
+    height: 28px;
+}
+
+.reject-btn {
+    background-color: white !important;
+    color: #4472c4 !important;
+    border: 1px solid #4472c4 !important;
+    border-radius: 4px;
+    width:  100px;
+    height: 28px;
+}
+.buttonMargin{
+    margin-top: -23px;
+}
+
+.RejectMotif{
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.userProfile-form{
+    width: 100%;
+    display: flex;
+}
+.pull-right{
+    position:absolute;
+    right: 1%;
+}
+.topbutton{
+    margin-top: -55px;
+    color:white;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.parent-folder-name{
+    border-radius: 9px;
+}
+.colorIcone{
+    color:#32425A
+}
+.colorIconeInfo{
+    color:orange;
+}
+.exit{
+    color:red;
+    margin-left: -10px;
+    font-size: small;
+}
+.ant-switch-checked {
+    background-color: #32425a !important ;
+}
+

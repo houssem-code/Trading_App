@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fda0bc81.chunk.css",
+    "main.js": "/static/js/main.54fdd8d4.chunk.js",
+    "main.js.map": "/static/js/main.54fdd8d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.438b1bbd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.438b1bbd.js.map",
+    "static/css/2.ed00626a.chunk.css": "/static/css/2.ed00626a.chunk.css",
+    "static/js/2.d2287eac.chunk.js": "/static/js/2.d2287eac.chunk.js",
+    "static/js/2.d2287eac.chunk.js.map": "/static/js/2.d2287eac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ed00626a.chunk.css.map": "/static/css/2.ed00626a.chunk.css.map",
+    "static/css/main.fda0bc81.chunk.css.map": "/static/css/main.fda0bc81.chunk.css.map",
+    "static/js/2.d2287eac.chunk.js.LICENSE.txt": "/static/js/2.d2287eac.chunk.js.LICENSE.txt",
+    "static/js/main.54fdd8d4.chunk.js.LICENSE.txt": "/static/js/main.54fdd8d4.chunk.js.LICENSE.txt",
+    "static/media/HomePage.css": "/static/media/back11.6a9f74d7.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/light-bootstrap-dashboard-react.scss?v=2.0.0": "/static/media/nucleo-icons.a30d0b02.ttf",
+    "static/media/png-computer-keyboard-backspace-computer-icons-delete-5afbab452d4129.0659040215264428211854.fe3877ee.png": "/static/media/png-computer-keyboard-backspace-computer-icons-delete-5afbab452d4129.0659040215264428211854.fe3877ee.png",
+    "static/media/sideedm.0d782683.png": "/static/media/sideedm.0d782683.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.438b1bbd.js",
+    "static/css/2.ed00626a.chunk.css",
+    "static/js/2.d2287eac.chunk.js",
+    "static/css/main.fda0bc81.chunk.css",
+    "static/js/main.54fdd8d4.chunk.js"
+  ]
+}

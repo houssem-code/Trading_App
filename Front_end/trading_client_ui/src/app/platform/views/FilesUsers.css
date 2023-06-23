@@ -1,0 +1,68 @@
+
+/*.notranslate {
+    padding-top: 20em !important;
+}*/
+
+/* label-css
+#demo-multiple-checkbox-label {
+        
+}*/
+
+.ant-modal-confirm-content {
+    font-size: 17px !important;
+    font-weight: 500;
+    height: 65px;
+    /*padding-top: 10px !important;*/
+    
+}
+.ant-modal-confirm-title {
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    /*padding-top: 20px !important;*/
+
+}
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm{
+    width: 450px !important;
+    border-radius: 50% !important; 
+    
+}
+.ant-modal-confirm-body-wrapper {
+margin-top: 10px;
+}
+.anticon.anticon-exclamation-circle{
+    margin-top: 2px;
+}
+.anticon.anticon-check-circle {
+    margin-top: 2px;
+}
+.anticon.anticon-info-circle {
+    margin-top: 2px;
+}
+.anticon.anticon-folder-open {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -25px;
+}
+.anticon.anticon-close-circle {
+    margin-top: 2px;
+}
+.selectAll {
+    font-weight: 500 !important;
+}
+
+.ant-card {
+
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+background-color: #ebebeb63;
+}
+
+.thClient {
+    background-color: rgb(50, 66, 90)!important;
+    color: antiquewhite;
+}
+.folderForm {
+   
+    width: 120 !important;
+}
+
+

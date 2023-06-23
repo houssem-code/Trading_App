@@ -1,0 +1,44 @@
+
+
+.ant-modal-confirm-content {
+    font-size: 18px !important;
+    font-weight: 600;
+    height: 70px;
+    /*padding-top: 10px !important;*/
+    
+}
+.ant-modal-confirm-title {
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    /*padding-top: 20px !important;*/
+
+}
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm{
+    width: 500px !important;
+    border-radius: 50% !important; 
+    
+}
+.ant-modal-confirm-body-wrapper {
+margin-top: 10px;
+}
+.thTrash {
+background-color: rgb(50, 66, 90)!important;
+color: antiquewhite;
+padding: 0 !important;
+}
+.css-182l0v7-MuiTypography-root{
+    font-size: 13.6px !important;
+    font-weight: bold !important;
+}
+.css-ahj2mt-MuiTypography-root{
+    font-size: 0.85rem !important;
+}
+.css-1aby3gm-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root{
+    line-height: 2 !important;
+}
+ .css-j204z7-MuiFormControlLabel-root{
+    margin-bottom: 0rem !important;
+}
+.css-1r6ehke-MuiToolbar-root{
+    min-height: 10 !important;
+}

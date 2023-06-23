@@ -1,0 +1,15 @@
+.home_page {
+     background-image: url("../../assets/img/back11.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+
+}
+
